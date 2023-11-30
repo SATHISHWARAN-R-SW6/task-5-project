@@ -1,50 +1,78 @@
 // 2. create your own resume data in JSON format
 
-const resumeData = {
-  name: "SATHISHWARAN R",
-  title: "Full Stack Developer",
-  contact: {
-    email: "johndoe@example.com",
-    phone: "123-456-7890",
-    website: "www.johndoe.dev",
-    location: "New York, USA",
+{
+  "name": "SATHISHWARAN",
+  "title": "full stack devoloper",
+  "contact": {
+    "email": "sathishwaran567@gmail.com",
+    "phone": "9150574265",
+    "location": "chennai"
   },
-  summary:
-    "Passionate and skilled Full Stack Developer with experience in building web applications using modern technologies.",
-  experience: [
+  "summary": "I am a powerful language model developed by javascript with a diverse set of capabilities. My primary function is to assist and generate human-like text across various domains.",
+  "skills": [
+    "Natural Language Processing",
+    "Text Generation",
+    "Information Retrieval",
+    "Contextual Understanding",
+    "Conversational launguage"
+  ],
+  "experience": [
     {
-      position: "Senior Developer",
-      company: "TechCo Solutions",
-      startDate: "2020-01-01",
-      endDate: "2022-03-15",
-      description:
-        "Led a team of developers in creating and maintaining web applications. Implemented new features and optimized performance.",
+      "title": "full stack devoloper",
+      "company": "javascript",
+      "location": "chenna",
+      "dates": "January 2023- Present",
+      "responsibilities": [
+        "Generating human-like text based on input prompts.",
+        "Assisting users with a wide range of inquiries.",
+        "Continuously learning and adapting to new information."
+      ]
     },
     {
-      position: "Frontend Developer",
-      company: "WebTech Innovations",
-      startDate: "2018-05-01",
-      endDate: "2019-12-31",
-      description:
-        "Developed responsive and user-friendly interfaces for web applications. Collaborated with backend teams to integrate frontend with server-side logic.",
-    },
+      "title": "javascript search Assistant",
+      "company": "project based company.",
+      "location": "chennai",
+      "dates": "January 2023 - December 2023",
+      "responsibilities": [
+        "Responding to user queries in a natural and helpful manner.",
+        "Providing information and assistance on various topics.",
+        "Improving conversational abilities through ongoing training."
+      ]
+    }
   ],
-  education: [
+  "education": [
     {
-      degree: "Bachelor OF Mathematics",
-      school: "University of Madras",
-      graduationYear: "2021",
+      "degree": "B.SC.MATHEMATICS",
+      "school": "Dr.ambedkar Arts & Science College",
+      "location": "chennai",
+      "dates": "2018- 2021"
     },
+    {
+      "degree": "Bachelor of B.SC.MATHEMATICS",
+      "school": "Dr.Ambedkar madras University",
+      "location": "chennai",
+      "dates": "2015 - 2019"
+    }
   ],
-  skills: [
-    "JavaScript",
-    "React",
-    "Node.js",
-    "HTML/CSS",
-    "RESTful APIs",
-    "Git",
-    "Agile Development",
+  "certifications": [
+    "Certified B.SC.MATHEMATICS Degree",
+    "mathematics difficult",
+    "Advanced broblem solving skills"
   ],
-};
-
-console.log(JSON.stringify(resumeData, null, 2));
+  "languages": ["English"],
+  "interests": ["Conversational Maths",  "Continuous Learning"],
+  "references": [
+    {
+      "name": "SATHISHWARAN",
+      "position": "FULL STACK DEVOLOPENT",
+      "company": "GUVI",
+      "contact": "sathishwaran567@gmail.com"
+    },
+    {
+      "name": "Prof. maths solving skills master",
+      "position": "full stack devoloper",
+      "company": "guvi",
+      "contact": "sathishwaran567@gmail.com"
+    }
+  ]
+}
